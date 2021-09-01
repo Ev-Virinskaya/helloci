@@ -61,6 +61,14 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <fork>true</fork>
+                    <executable>/usr/lib/jvm/java-16-openjdk-amd64/bin/javac</executable>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
