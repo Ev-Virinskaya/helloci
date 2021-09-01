@@ -18,13 +18,13 @@ public class AppTest {
 
 	@Test
 	public void testShouldBeFailed() {
-		assertTrue(true);
+		assertFalse(false);
 	}
 
 	@Ignore("Not implemented yet")
 	@Test
 	public void testShouldBeSKipped() {
-		assertFalse(false);
+		assertTrue(true);
 	}
 	
 	@Test
